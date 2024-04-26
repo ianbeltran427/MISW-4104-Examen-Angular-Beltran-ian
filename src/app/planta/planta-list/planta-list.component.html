@@ -1,15 +1,14 @@
-<div class="container-fluid">
+<div class="container-fluid content-wrapper">
   <div class="row">
-    <div class="col">
+    <div class="col border-bottom-titulo">
       <h1 class="tittle-heading">Vivero EL Otoño</h1>
     </div>
   </div>
   <div class="row">
-    <div class="col-12">
-      <img src="assets/images/banner.png" class="img-fluid" alt="Banner Image">
+    <div> <img src="assets/images/banner.png" class="img-fluid" alt="Banner Image">
     </div>
   </div>
-  <div class="col-6">
+  <div class="col-6 table-container">
     <table class="table">
       <thead>
         <tr>
@@ -36,5 +35,13 @@
         </tr>
       </tbody>
     </table>
+  </div>
+  <div class="row">
+    <p>Total plantas de interior: {{ conteoPlantasTipo.interior }}</p>
+    <p>Total plantas de exterior: {{ conteoPlantasTipo.exterior }}</p>
+  </div>
+  <div class="row footer">
+    <p class="footer-text"><strong>Contact us: +57 3102105253 - info&#64;viveroelotonio.com -
+        &#64;viveroelotonio</strong></p>
   </div>
 </div>

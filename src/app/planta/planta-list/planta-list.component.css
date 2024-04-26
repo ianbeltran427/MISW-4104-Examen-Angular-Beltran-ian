@@ -1,5 +1,55 @@
+
+.content-wrapper {  
+    padding: 100px 50px;
+    padding-top: 10px;
+}
+  
 .tittle-heading {
-    font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    color: gray;
+    font-family: "Kaisei Dekol", sans-serif; 
+    font-size: 36px; 
+    font-weight: normal; 
+    color: #000000; 
+    text-shadow: 0 0 0.1px #000000; 
+}
+
+.border-bottom-titulo{
+    border-bottom: 1px solid;
+}
+
+.img-fluid {
+    width: 100%; 
+    height: 305px;
+}
+
+.table-container {
+    padding-top: 30px;
+}
+
+.table thead th {
+    background-color: #333A40; 
+    color: #FFFFFF; 
+    font-family: "Inter", sans-serif; 
+    font-weight: bold;
+    font-size: 18px; 
+  }
+
+  .table tbody tr td {
+    font-family: "Inter", sans-serif; 
+    font-weight: normal; 
+    font-size: 18px; 
+    color: #000000; 
+  }
+
+.footer {
+    text-align: center;
+    margin-top: auto; 
+    padding: 1rem; 
+}
+  
+.footer-text {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000;
+    text-shadow: 0 0 0.1px #000000;
 }
