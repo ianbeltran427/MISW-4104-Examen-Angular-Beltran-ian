@@ -1,11 +1,16 @@
 <div class="container-fluid content-wrapper">
   <div class="row">
-    <div class="col border-bottom-titulo">
+    <div class="col-12">
       <h1 class="tittle-heading">Vivero EL Otoño</h1>
+    </div>
+    <div class="col border-bottom-titulo">
     </div>
   </div>
   <div class="row">
-    <div> <img src="assets/images/banner.png" class="img-fluid" alt="Banner Image">
+    <div class="col-12">
+      <img src="assets/images/banner.png" class="img-fluid" alt="Banner Image">
+    </div>
+    <div class="col border-bottom-banner">
     </div>
   </div>
   <div class="col-6 table-container">
@@ -21,7 +26,7 @@
       <tbody>
         <tr *ngFor="let c of plantas">
           <td>
-            <dd>{{c.id}}</dd>
+            <dd><strong>{{c.id}}</strong></dd>
           </td>
           <td>
             <dd>{{c.nombre_comun}}</dd>
@@ -36,7 +41,7 @@
       </tbody>
     </table>
   </div>
-  <div class="row">
+  <div class="row summary">
     <p>Total plantas de interior: {{ conteoPlantasTipo.interior }}</p>
     <p>Total plantas de exterior: {{ conteoPlantasTipo.exterior }}</p>
   </div>
