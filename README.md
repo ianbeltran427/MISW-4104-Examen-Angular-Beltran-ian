@@ -1,4 +1,4 @@
-# Mynewapp
+# PlantasVivero
 
 Versión con la que fue creada el proyecto
 
